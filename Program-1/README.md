@@ -22,7 +22,7 @@
 | 8 | m | int | To store the upper limit for the loop |
 | 9 | n | int | To store the lower limit for the loop |
 
-# Output
+# OUTPUT
 
 <p align="center">
 <img width="810" height="190" alt="output" src="output.png">
