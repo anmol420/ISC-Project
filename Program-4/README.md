@@ -9,15 +9,15 @@
 
 | Sr. No. | Variable | Data Type | Description |
 | --- | --- | --- | --- |
-| 1 | n | int | Stores the number of days |
-| 2 | day | int | Stores the days |
-| 3 | year | int | Stores the year |
-| 4 | a | int[] | Stores the names of the 12 months orderwise |
+| 1 | n | int | To store the number of days |
+| 2 | day | int | To store the days |
+| 3 | year | int | To store the year |
+| 4 | a | int[] | To store the names of the 12 months orderwise |
 | 5 | i | int | Used in for-loop |
 | 6 | j | int | Used in for-loop |
 | 7 | k | int | Used in for-loop |
-| 8 | nday | int | Stored the calculated day number |
-| 9 | date | int | Stores the calculated date |
+| 8 | nday | int | To store the calculated day number |
+| 9 | date | int | To store the calculated date |
 
 # OUTPUT
 
