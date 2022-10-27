@@ -10,9 +10,10 @@ class Toggle {
     }
 
     public void readword() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a word:");
-        str = sc.next();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter a word:");
+            str = sc.next();
+        }
         len = str.length();
     }
 
