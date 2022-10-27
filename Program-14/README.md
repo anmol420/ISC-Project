@@ -14,7 +14,7 @@
 | Sr. No. | Variable | Data Type | Description |
 | --- | --- | --- | --- |
 | 1 | str | String | Stores the input word |
-| 2 | newstr | | String | Stores the new toggled word |
+| 2 | newstr | String | Stores the new toggled word |
 | 3 | len | int | Stores the len of the input word |
 | 4 | i | int | To iterate the for-loop for going through the word |
 
