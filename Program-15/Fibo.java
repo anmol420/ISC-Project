@@ -8,10 +8,11 @@ class Fibo {
     }
 
     public void read() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter start and end value: ");
-        start = sc.nextInt();
-        end = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter start and end value: ");
+            start = sc.nextInt();
+            end = sc.nextInt();
+        }
     }
 
     public int fibo(int n) {
