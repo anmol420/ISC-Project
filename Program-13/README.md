@@ -1,7 +1,7 @@
 # ALGORITHM
 
 - Step-1 :- START
-- Step-2 :- Create a class named as `Check`.
+- Step-2 :- Create a class named as `"Check"`.
 - Srep-3 :- Create a constructor to initialize the instance variable String wrd with null, int len with 0.
 - Step-4 :- Create a *void* method `"acceptword"` to input a word in *wrd* and and count the length of the word and store in *len*.
 - Step-5 :- Create a *boolean* method `"palindrome"` to check if the word is palindrome or not by checking the first and the last leter of the word i.e. palinedrome words will have first and last letter common.

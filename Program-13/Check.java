@@ -11,7 +11,7 @@ class Check {
 
     public void acceptword() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a word");
+        System.out.println("Enter a word:");
         wrd = sc.next();
         len = wrd.length();
     }
