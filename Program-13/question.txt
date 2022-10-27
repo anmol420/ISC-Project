@@ -6,11 +6,11 @@ Example: MADAM, LEVEL etc.
 The details of the members of the class are given below:
 Class name : Check
 
-Data members/instance variables:
+Data members / instance variables:
 wrd : stores a word
 len : to store the length of the word
 
-Methods/Member functions:
+Methods / Member functions:
 Check( ) : default constructor
 void acceptword( ) : to accept the word
 boolean palindrome ( ) : checks and returns ‘true’ if the word is a palindrome otherwise returns ‘false’
