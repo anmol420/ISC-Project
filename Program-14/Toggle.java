@@ -31,7 +31,7 @@ class Toggle {
         System.out.println("New string: " + newstr);
     }
 
-    public static void main(String ar[]) {
+    public static void main(String args[]) {
         Toggle Ob = new Toggle();
         Ob.readword();
         Ob.toggle();
