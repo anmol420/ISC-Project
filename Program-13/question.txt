@@ -1,0 +1,20 @@
+Design a class "Check" which checks whether a word is a palindrome or not.
+(Palindrome words are those which spell the same from either ends).
+
+Example: MADAM, LEVEL etc.
+
+The details of the members of the class are given below:
+Class name : Check
+
+Data members/instance variables:
+wrd : stores a word
+len : to store the length of the word
+
+Methods/Member functions:
+Check( ) : default constructor
+void acceptword( ) : to accept the word
+boolean palindrome ( ) : checks and returns ‘true’ if the word is a palindrome otherwise returns ‘false’
+void display( ) : displays the word along with an appropriate message
+
+Specify the class "Check" giving details of the constructor, void acceptword( ), boolean palindrome( ) and void display( ).
+Define the main( ) function to create an object and call the functions accordingly to enable the task.

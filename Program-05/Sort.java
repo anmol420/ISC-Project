@@ -1,5 +1,5 @@
 import java.util.*;
-public class sort
+public class Sort
 {
     public static void sortArray(int arr[]) {
         int n = arr.length;
