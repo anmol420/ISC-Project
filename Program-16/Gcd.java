@@ -8,10 +8,11 @@ class GCD {
     }
 
     public void accept() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter two numbers:");
-        num1 = sc.nextInt();
-        num2 = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter two numbers:");
+            num1 = sc.nextInt();
+            num2 = sc.nextInt();
+        }
     }
 
     public int gcd(int x, int y) {
