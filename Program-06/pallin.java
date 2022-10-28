@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class pallin {
     public static boolean isPalindrome(String word) {
         boolean palin = true;
@@ -11,6 +12,7 @@ public class pallin {
         }
         return palin;
     }
+
     public static String makePalindrome(String word) {
         int len = word.length();
         char lastChar = word.charAt(len - 1);
@@ -22,35 +24,35 @@ public class pallin {
         for (int j = i; j >= 0; j--) {
             sb.append(word.charAt(j));
         }
-        
+
         return sb.toString();
     }
+
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("ENTER THE SENTENCE:");
+        System.out.println("Enter the Sentence:");
         String Str = sc.nextLine().trim().toUpperCase();
         int len = Str.length();
-        
+
         char lastChar = Str.charAt(len - 1);
-        if (lastChar != '.' 
-            && lastChar != '?' 
-            && lastChar != '!') {
-                System.out.println("INVALID INPUT");
-                return;
+        if (lastChar != '.'
+                && lastChar != '?'
+                && lastChar != '!') {
+            System.out.println("INVALID INPUT");
+            return;
         }
-        
+
         String str = Str.substring(0, len - 1);
-        
+
         StringTokenizer st = new StringTokenizer(str);
         StringBuffer sb = new StringBuffer();
-        
+
         while (st.hasMoreTokens()) {
             String word = st.nextToken();
             boolean isPalinWord = isPalindrome(word);
             if (isPalinWord) {
                 sb.append(word);
-            }
-            else {
+            } else {
                 String palinWord = makePalindrome(word);
                 sb.append(palinWord);
             }
@@ -58,7 +60,7 @@ public class pallin {
         }
 
         String convertedStr = sb.toString().trim();
-        
+
         System.out.println();
         System.out.println(Str);
         System.out.println(convertedStr);

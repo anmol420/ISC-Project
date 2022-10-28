@@ -1,0 +1,18 @@
+A class Fibo has been defined to generate the Fibonacci series 0, 1, 1, 2, 3, 5, 8, 13,....... 
+(Fibonacci series are those in which the sum of the previous two terms is equal to the next term).
+
+Some of the members of the class are given below:
+Class name : Fibo
+
+Data member/instance variable:
+start : integer to store the start value
+end : integer to store the end value
+
+Member functions/methods:
+Fibo( ) : default constructor
+void read( ) : to accept the numbers
+int fibo(int n) : return the nth term of a Fibonacci series using recursive technique
+void display( ) : displays the Fibonacci series from start to end by invoking the function fibo()
+
+Specify the class Fibo, giving details of the Constructor, void read( ), int fibo(int), and void display( ). 
+Define the main() function to create an object and call the functions accordingly to enable the task.

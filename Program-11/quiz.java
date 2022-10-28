@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class quiz {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -13,22 +14,22 @@ public class quiz {
         char answers[][] = new char[n][5];
         char key[] = new char[5];
 
-        System.out.println("Enter answers of participants");
+        System.out.println("Enter answers of participants:-");
         for (int i = 0; i < n; i++) {
-            System.out.println("Participant " + (i+1));
+            System.out.println("Participant " + (i + 1));
             for (int j = 0; j < 5; j++) {
                 answers[i][j] = sc.next().charAt(0);
             }
         }
 
-        System.out.println("Enter Answer Key:");
+        System.out.println("Enter Answer Key: ");
         for (int i = 0; i < 5; i++) {
             key[i] = sc.next().charAt(0);
         }
-        
+
         int hScore = 0;
         int score[] = new int[n];
-        
+
         System.out.println("Scores:");
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < 5; j++) {
@@ -36,18 +37,18 @@ public class quiz {
                     score[i]++;
                 }
             }
-            
+
             if (score[i] > hScore) {
                 hScore = score[i];
             }
-            
-            System.out.println("Participant " + (i+1) + " = " + score[i]);
+
+            System.out.println("Participant " + (i + 1) + " = " + score[i]);
         }
-        
+
         System.out.println("Highest Score:");
         for (int i = 0; i < n; i++) {
             if (score[i] == hScore) {
-                System.out.println("Participant " + (i+1));
+                System.out.println("Participant " + (i + 1));
             }
         }
     }

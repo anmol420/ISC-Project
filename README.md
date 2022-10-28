@@ -16,11 +16,15 @@
 
 [Join our discord server now to get additional support or hang out!](https://discord.gg/QGf3q7e3J5)
 
-<h3>Developer</h3>
+<h3>Developers</h3>
 
-👤 anmol420.
+🔵 anmol420.
 - GitHub: [anmol420](https://www.github.com/anmol420)
 - Discord: [Anmol](https://www.discord.com/users/875986400649052191)
+
+🔵 alexshcer(AS).
+- GitHub: [alexshcer](https://www.github.com/alexshcer)
+- Discord: [WhatANameHmm](https://www.discord.com/users/827559876603412591)
 
 <h3>Contributing</h3>
 

@@ -1,0 +1,20 @@
+Design a class "Toggle" which toggles a word by converting all upper case alphabets to lower case and vice versa.
+
+Example: The word “mOTivATe” becomes “MotIVatE”
+
+The details of the members of the class are given below:
+Class name : Toggle
+
+Data members/instance variables:
+str : stores a word
+newstr : stores the toggled word
+len : to store the length of the word
+
+Methods/Member functions:
+Toggle( ) : default constructor
+void readword( ) : to accept the word
+void toggle ( ) : converts the upper case alphabets to lower case and all lower case alphabets to upper case and stores it in newstr
+void display( ) : displays the original word along with the toggled word
+
+Specify the class Toggle giving details of the constructor, void readword( ), void toggle( ) and void display( ). 
+Define the main( ) function to create an object and call the functions accordingly to enable the task.

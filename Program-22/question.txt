@@ -1,0 +1,18 @@
+A class "Capital" has been defined to check whether a sentence has words beginning with a capital letter or not.
+
+Some of the members of the class are given below:
+
+Class name: Capital
+
+Data member / instance variable:
+sent: to store a sentence
+freq: stores the frequency of words beginning with a capital letter
+
+Member functions / methods:
+Capital () : default constructor
+void input (): to accept the sentence
+boolean isCap(String w): checks and returns true if the word begins with a capital letter, otherwise returns false
+void display(): displays the sentence along with the frequency of the words beginning with a capital letter
+
+Specify the class Capital, giving the details of the constructor( ), void input( ), boolean isCap(String) and void display( ). 
+Define the main( ) function to create an object and call the functions accordingly to enable the task.
