@@ -1,0 +1,23 @@
+A disarium number is a number in which the sum of the digits to the power of their
+respective position is equal to the number itself.
+Example: 135 = 11 + 32 + 53
+Hence, 135 is a disarium number.
+Design a class Disarium to check if a given number is a disarium number or not. Some
+of the members of the class are given below:
+
+Class name : Disarium
+Data members/instance variables:
+int num : stores the number
+int size : stores the size of the number
+
+Methods/Member functions:
+
+Disarium(int nn) : parameterized constructor to initialize the data members n = nn and size = 0
+
+void countDigit( ) : counts the total number of digits and assigns it to size
+
+int sumofDigits(int n, int p) : returns the sum of the digits of the number(n)
+
+void check( ) : checks whether the number is a disarium number and displays the result with an appropriate message
+
+Specify the class Disarium giving the details of the constructor( ), void countDigit( ), int sumofDigits(int, int) and void check( ). Define the main( ) function to create an object and call the functions accordingly to enable the task.
