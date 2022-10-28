@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class check {
     public static void sen_check(String sen) {
         System.out.println(sen);
@@ -31,21 +32,22 @@ public class check {
         }
         System.out.println();
     }
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("INPUT: ");
-        String sen = sc.nextLine();
-        sen = sen.trim();
-        sen = sen.toUpperCase();
-        int len =sen.length();
 
-        char last =sen.charAt(len - 1);
-        if(last!='.'&& last!='?'&& last!='!')
-        {
-            System.out.println("INVALID INPUT");
-            return;
+    public static void main(String[] args) {
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Input: ");
+            String sen = sc.nextLine();
+            sen = sen.trim();
+            sen = sen.toUpperCase();
+            int len = sen.length();
+
+            char last = sen.charAt(len - 1);
+            if (last != '.' && last != '?' && last != '!') {
+                System.out.println("INVALID INPUT");
+                return;
+            }
+            System.out.println("Output: ");
+            sen_check(sen);
         }
-        System.out.println("OUTPUT: ");
-        sen_check(sen);
     }
 }

@@ -20,5 +20,5 @@
 # OUTPUT
 
 <p align="center">
-<img width="720" height="190" alt="output" src="output.png">
+<img width="auto" height="auto" alt="output" src="output.png">
 </p>
