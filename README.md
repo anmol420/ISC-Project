@@ -1,18 +1,20 @@
+For final ready to print files set [alexshcer fork](https://github.com/alexshcer/ISC-Project/).
+
 # ISC-Project In Java
 
 <h1>Requirements</h1>
 
->[Java](https://www.java.com/en/download/) <br>
+[Java](https://www.java.com/en/download/) <br>
 [Visual Studio Code](https://code.visualstudio.com/) or any other code editor <br>
 [Git](https://git-scm.com/downloads)
 
-<h1>How To Use</h1>
+<h3>How To Use</h3>
 
 - Please Ensure That You Have Installed JDK In Your Device.
 
 - To Check The Working Of The Codes, You Can Go To The Directory And Type `java <file_name>.java`.
 
-<h2>Discord Server</h2>
+<h3>Discord Server</h3>
 
 [Join our discord server now to get additional support or hang out!](https://discord.gg/QGf3q7e3J5)
 
