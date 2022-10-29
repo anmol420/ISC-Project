@@ -1,4 +1,4 @@
-For final ready to print files set [alexshcer fork](https://github.com/alexshcer/ISC-Project/).
+For final ready to print files see [alexshcer fork](https://github.com/alexshcer/ISC-Project/).
 
 # ISC-Project In Java
 
