@@ -2,9 +2,9 @@ For final ready to print files set [alexshcer fork](https://github.com/alexshcer
 
 # ISC-Project In Java
 
-<h1>Requirements</h1>
+<h3>Requirements</h3>
 
-[Java](https://www.java.com/en/download/) <br>
+>[Java](https://www.java.com/en/download/) <br>
 [Visual Studio Code](https://code.visualstudio.com/) or any other code editor <br>
 [Git](https://git-scm.com/downloads)
 
